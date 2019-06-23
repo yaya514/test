@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rent.mapper.RentItemDao">
+
+	<!-- 查询所有personal的总记录数 -->
+	<select id="queryTotalCount" parameterType="page" resultType="Integer">
+		select count(*) from 
+		house h,personal p 
+		where h.pid = p.id
+		<if test="params!=null">
+			<if test="params.searchName!=null and params.searchName!=''">
+				and pname like "%${params.searchName}%"
+			</if>
+		</if>
+	</select> 
+	
+	<!-- 根据id删除租房订单，其实是将is_rent改为0，pid改为null -->
+	<update id="deleteRentItemById">
+		update house set
+		is_rent = 0,
+		pid = null
+		where hid = #{value}
+	</update>
+	
+	<!-- 查询返回所有租房订单RentItemList集合对象 -->
+	<select id="queryPage" parameterType="page" resultType="rentItem">
+		select pname,phone,money,hid,name,price,is_rent,image
+		from house h,personal p 
+		where h.pid = p.id 
+		<if test="params!=null">
+			<if test="params.searchName!=null and params.searchName!=''">
+				and pname like "%${params.searchName}%"
+			</if>
+		</if>
+		limit #{index},#{currentCount}
+		
+	</select>
+	
+</mapper>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!--读取配置文件-->
+    <context:property-placeholder location="classpath:db.properties"/>
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--mybatis工厂-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!--mybatis核心配置文件的位置-->
+        <property name="configLocation" value="classpath:sqlMapConfig.xml"/>
+    </bean>
+
+    <!--mybatis动态代理开发：扫描-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--基本包-->
+        <property name="basePackage" value="com.rent.mapper"/>
+    </bean>
+
+    <!--注解事务-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+
+    <!--配置shiro-->
+    <!-- <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        注入安全管理器对象
+        <property name="securityManager" ref="securityManager"/>
+        <property name="loginUrl" value="/login.html"/> 登录页面
+        <property name="unauthorizedUrl" value="/error.html"/> 权限不足跳转
+
+        <property name="filterChainDefinitions">
+            <value>
+                暂时全部放行
+                /** = anon
+            </value>
+        </property>
+
+        <property name="filters">
+            <map>
+                <entry key="userFilter" value-ref="shiroUserFilter"></entry>
+            </map>
+        </property>
+    </bean> -->
+
+    <!--配置重写的shiro过滤器-->
+    <!--<bean id="shiroUserFilter" class="com.datou.vue.filter.ShiroUserFilter"></bean>-->
+
+    <!--配置安全管理器对象-->
+   <!--  <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="examRealm"/>
+    </bean> -->
+
+    <!--自己的realm对象-->
+    <!-- <bean id="examRealm" class="com.exam.realm.ExamRealm">
+
+    </bean>
+ -->
+
+</beans>

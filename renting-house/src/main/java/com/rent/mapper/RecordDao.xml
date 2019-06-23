@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rent.mapper.RecordDao">
+	
+	<!-- 查询所有用户的所有交易记录 -->
+	<select id="queryAllPage" parameterType="page" resultType="record">
+		select * from record 
+		<if test="params!=null">
+			<if test="params.searchName!=null and params.searchName!=''">
+				where pname like "%${params.searchName}%" 
+			</if>
+		</if>
+		order by phone
+		limit #{index},#{currentCount}
+	</select>
+	
+	<!-- 查询所有用户所有record的总记录数 -->
+	<select id="queryAllTotalCount" parameterType="page" resultType="Integer">
+		select count(*) from record
+		<if test="params!=null">
+			<if test="params.searchName!=null and params.searchName!=''">
+				where pname like "%${params.searchName}%"
+			</if>
+		</if>
+	</select>
+	
+	<!-- 查询返回个人记录recordList集合对象 -->
+	<select id="queryPage" parameterType="page" resultType="record">
+		select * from record where
+		phone = #{params.phone} 
+		limit #{index},#{currentCount}
+	</select>
+	
+	<!-- 查询个人所有record的总记录数 -->
+	<select id="queryTotalCount" parameterType="page" resultType="Integer">
+		select count(*) from record
+		where phone = #{params.phone}
+	</select>
+	
+	
+	<!-- 用户充值余额 -->
+	<update id="updatePersonalMoney" parameterType="record">
+		insert into record 
+		(pname,phone,money,changeMoney,date) values
+		(#{pname},#{phone},#{money},#{changeMoney},#{date})
+	</update>
+	
+</mapper>

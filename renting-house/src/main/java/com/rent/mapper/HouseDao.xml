@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rent.mapper.HouseDao">
+	
+	<!-- 管理员查询所用房源信息 -->
+	<select id="getHouseList" resultType="house">
+		select * from house
+	</select>
+	
+	<!-- 根据id获得房源信息 -->
+	<select id="getHouseById" resultType="house">
+		select * from house where
+		hid = #{value}
+	</select>
+	
+	<!-- 根据id修改房源信息 -->
+	<update id="updateHouseById" parameterType="house"> 
+		update house set 
+		name = #{name},
+		address = #{address},
+		image = #{image},
+		price = #{price},
+		area = #{area},
+		huxing = #{huxing},
+		is_rent = #{is_rent},
+		house_desc = #{house_desc}
+		where hid = #{hid}
+	</update>
+	
+	<!-- 根据id删除房源 -->
+	<delete id="deleteHouseById">
+		delete from house where
+		hid = #{value}
+	</delete>
+	
+	<!-- 添加一个房源 -->
+	<insert id="addHouse" parameterType="house">
+		insert into house 
+		(name,address,image,price,house_desc,area,huxing,is_rent) values
+		(#{name},#{address},#{image},#{price},#{house_desc},#{area},#{huxing},#{is_rent})
+	</insert>
+	
+	<!-- 查询返回一个houseList集合对象 -->
+	<select id="queryPage" parameterType="page" resultType="house">
+		select * from house 
+		<if test="params!=null">
+			<if test="params.searchPrice!=null and params.searchPrice!=''">
+				where price &lt;= '${params.searchPrice}'
+			</if>
+		</if>
+		limit #{index},#{currentCount}
+	</select>
+	
+	<!-- 查询所有house的总记录数 -->
+	<select id="queryTotalCount" parameterType="page" resultType="Integer">
+		select count(*) from house 
+		<if test="params!=null">
+			<if test="params.searchPrice!=null and params.searchPrice!=''">
+				where price &lt;= '${params.searchPrice}'
+			</if>
+		</if>
+	</select>
+	
+	<!-- 查询所有未被出租的房子 -->
+	<select id="queryPageCustomer" parameterType="page" resultType="house">
+		select * from house where
+		is_rent = 0 
+		<if test="params!=null">
+			<if test="params.searchPrice!=null and params.searchPrice!=''">
+				and price &lt;= '${params.searchPrice}'
+			</if>
+		</if>
+		limit #{index},#{currentCount}
+	</select>
+	
+	<!-- 查询所有未被出租house的总记录数 -->
+	<select id="queryTotalCountCustomer" resultType="Integer">
+		select count(*) from house where
+		is_rent = 0
+		<if test="params!=null">
+			<if test="params.searchPrice!=null and params.searchPrice!=''">
+				and price &lt;= '${params.searchPrice}'
+			</if>
+		</if>
+	</select>
+	
+	<!-- 通过hid将对应的house对象的is_rent，pid字段修改 -->
+	<update id="houseOrder">
+		update house set 
+		is_rent = 1,
+		pid = #{0} 
+		where hid = #{1}
+	</update>
+	
+	<!-- 根据id查询该用户所有预定的房源 -->
+	<select id="getPersonalHouseById" resultType="house">
+		select * from house where
+		pid = #{value}
+	</select>
+	
+	<!-- 用户退订房源，根据id将house对应的is_rent改为0,pid改为null -->
+	<update id="houseUnsubscribe">
+		update house set
+		is_rent = 0,
+		pid = null where
+		hid = #{value}
+	</update>
+</mapper>

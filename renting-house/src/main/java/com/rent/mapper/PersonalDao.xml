@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rent.mapper.PersonalDao">
+	
+	<!-- 通过帐号查询用户 -->
+	<select id="getPersonalByPhone" resultType="personal">
+		select * from personal where
+		phone = #{value}
+	</select>
+	
+	<!-- 注册用户 -->
+	<insert id="register" parameterType="personal">
+		insert into personal (phone,password)
+		values (#{phone},#{password})
+	</insert>
+	
+	<!-- 查询账户是否存在 -->
+	<select id="checkPhone" resultType="personal">
+		select * from personal where
+		phone = #{value}
+	</select>
+	
+	<!-- 修改个人信息 -->
+	<update id="editPersonalInfo" parameterType="personal">
+		update personal set
+		pname = #{pname},
+		age = #{age},
+		email = #{email},
+		work = #{work}
+		where phone = #{phone}
+	</update>
+	
+	<!-- 根据phone修改个人密码 -->
+	<update id="editPersonalPasswordByPhone">
+		update personal set
+		password = #{password}
+		where phone = #{phone}
+	</update>
+	
+	<!-- 查询所有personal对象 -->
+	<select id="getPersonalList" resultType="personal">
+		select * from personal
+	</select>
+	
+	<!-- 根据id查询回显一个personal信息 -->
+	<select id="getPersonalById" resultType="personal">
+		select * from personal where 
+		id = #{value}
+	</select>
+	
+	<!-- 根据id修改personal信息 -->
+	<update id="updatePersonal">
+		update personal set
+		pname = #{pname},
+		age = #{age},
+		email = #{email},
+		work = #{work} 
+		where id = #{id}
+	</update>
+	
+	<!-- 根据id删除一个personal信息 -->
+	<delete id="deletePersonal">
+		delete from personal where 
+		id = #{value}
+	</delete>
+	
+	<!-- 查询返回一个personalList集合对象 -->
+	<select id="queryPage" parameterType="page" resultType="personal">
+		select * from personal
+		<if test="params!=null">
+			<if test="params.searchName!=null and params.searchName!=''">
+				where pname like "%${params.searchName}%"
+			</if>
+		</if>
+		 limit #{index},#{currentCount}
+	</select>
+	
+	<!-- 查询所有personal的总记录数 -->
+	<select id="queryTotalCount" parameterType="page" resultType="Integer">
+		select count(*) from personal
+		<if test="params!=null">
+			<if test="params.searchName!=null and params.searchName!=''">
+				where pname like "%${params.searchName}%"
+			</if>
+		</if>
+	</select>
+	
+	<!-- 添加一个personal -->
+	<insert id="personalAdd" parameterType="personal">
+		insert into personal
+		(pname,age,email,work,password,power,phone) values
+		(#{pname},#{age},#{email},#{work},#{password},#{power},#{phone})
+	</insert>
+	
+	<!-- 用户充值余额 -->
+	<update id="updatePersonalMoney" parameterType="personal">
+		update personal set 
+		money = #{money}
+		where phone = #{phone}
+	</update>
+</mapper>
