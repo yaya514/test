@@ -341,517 +341,6 @@
       <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/hello.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/hello2.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/vue-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/controller/HouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/controller/PersonalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/controller/RecordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/controller/RentItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/HouseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/HouseDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/PersonalDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/PersonalDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/RecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/RecordDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/RentItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/mapper/RentItemDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/pojo/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/pojo/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/pojo/Personal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/pojo/Record.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/pojo/RentItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/service/HouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/service/PersonalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/service/RecordService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/service/RentItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rent/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/sqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/admin-info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/house_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/house_edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/house_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/house_listCustomer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/personalHoust_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/personal_add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/personal_edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/personal_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/personal_money.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/record_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/record_listCustomer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/rentItem_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/avatar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/column.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/comment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/css3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/email.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/css/var.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/demo_fontclass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/demo_symbol.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/demo_unicode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/images/l-line-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/images/l-line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/images/login/login_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/images/login/login_line.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/images/login/yzm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/js/module/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/js/module/formate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/js/module/tool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/laydate/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/laydate/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/loading-1-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/css/modules/layer/default/loading-4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/dest/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/admin.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/avatar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/column.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/comment.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/css3.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/email.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/login.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/page.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/panel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/reset.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/var.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/less/welcome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/bar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/chord.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/eventRiver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/force.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/gauge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/k.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/line.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/radar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/scatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/treemap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/venn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/chart/wordCloud.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/echarts-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/background/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/background/background.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/background/background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/background/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/background/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/charts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/help/help.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/help/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/help/help.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/image/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/link/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/map/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/map/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/music/music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/music/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/music/music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/preview/preview.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/table/dragicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/table/edittable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/table/edittable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/table/edittable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/table/edittd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/table/edittip.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/template/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/success.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/video/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/addimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/listbackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/en/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/php/Uploader.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/php/action_crawler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/php/action_list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/php/action_upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/php/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/php/controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/css/ueditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/dialogbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/anchor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/charts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/filescan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/icons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/loaderror.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/lock.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/scale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/sortable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/upload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/videologo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/word.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/themes/iframe.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/video-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/video-js/video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/ueditor.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/ueditor.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/ueditor.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/ueditor.parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/admin/lib/ueditor/ueditor.parse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/55a08552-e4d7-4ecd-b1af-1fc8e0fbe583.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/68a25f00-bb00-4d83-a532-7593b450a067.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/7e620e9e-4e03-47a9-a5cb-59421dbf3213.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/807e28cc-220c-496d-88ad-4a17ba3bd352.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/873ce978-2cec-47c4-8b60-a86ac4e791b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/8c71fff8-5f27-425e-b3c1-9385f7d01387.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/9eaac52f-b6e2-49d4-bec9-bbe48a5bbc43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/9ec549ea-b330-4952-a0c7-8d412980b5d7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/image/ff9ab130-1d8c-4512-821e-38db94eed6d5.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sell/src/main/java/com/imooc/sell/VO/ProductInfoVO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sell/src/main/java/com/imooc/sell/VO/ProductVO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sell/src/main/java/com/imooc/sell/VO/ResultVO.java" afterDir="false" />
@@ -968,6 +457,7 @@
       <change beforePath="$PROJECT_DIR$/../mogondb52demo/mogondb52demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../mogondb52demo/mogondb52demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mogondb52demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mogondb52demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mogondb52demo/src/main/java/com/tensquare/test/MongoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mogondb52demo/src/main/java/com/tensquare/test/MongoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-boot-02-config/spring-boot-02-config/src/main/java/com/itheima/springboot/bean/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-02-config/spring-boot-02-config/src/main/java/com/itheima/springboot/bean/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-boot-02-config/spring-boot-02-config/src/main/java/com/itheima/springboot/bean/Personal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-02-config/spring-boot-02-config/src/main/java/com/itheima/springboot/bean/Personal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-boot-02-config/spring-boot-02-config/src/main/java/com/itheima/springboot/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-boot-02-config/spring-boot-02-config/src/main/java/com/itheima/springboot/controller/HelloController.java" afterDir="false" />
@@ -1030,11 +520,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="properties" value="4" />
+          <entry key="txt" value="18" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="Properties" value="4" />
           <entry key="XML" value="17" />
         </counts>
@@ -1293,92 +785,6 @@
               <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
               <item name="renting-house" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rent" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="rent" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="renting-house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="renting-house" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1390,7 +796,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561115082636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561265700042" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1503,15 +909,23 @@
       <option name="presentableId" value="Default" />
       <updated>1561083385131</updated>
       <workItem from="1561083388752" duration="7309000" />
-      <workItem from="1561263941121" duration="592000" />
+      <workItem from="1561263941121" duration="1607000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交 租房系统 源代码">
+      <created>1561265096284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561265096285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7901000" />
+    <option name="totallyTimeSpent" value="8916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1552,6 +966,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="第一次提交 租房系统 源代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交 租房系统 源代码" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resource/db.properties">
